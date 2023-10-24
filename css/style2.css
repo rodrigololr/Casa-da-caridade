@@ -1,0 +1,449 @@
+/*Resetar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    background-color: rgb(71, 70, 70);
+}
+
+.center{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*header da pagina principal*/
+
+
+
+header{
+    height: 100%;
+    width: 100%; 
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.285);
+}
+
+
+.row{
+    height: 80px;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .row h1{
+    color: rgb(228, 243, 118);
+    font-size: 40px;
+}
+
+.text-header h2{
+    margin-top: 250px;
+    color: rgb(228, 243, 118);
+    text-align: center;
+    font-size: 40px;
+}
+.text-header p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 115px 0 115px;
+}
+
+
+
+/*desktop*/
+nav.desktop ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav.desktop ul li{
+    margin-right: 45px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+nav ul li a:hover{
+    color: rgb(228, 243, 118);
+}
+
+/*mobile*/
+i.fa-navicon{
+    display: none;
+    cursor: pointer;
+    color: rgb(228, 243, 118);
+    position: fixed;
+}
+.batata{
+    display: flex;
+    align-items: center;
+}
+
+nav.mobile{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(177, 177, 4);
+    z-index: 5;
+}
+
+nav.mobile ul{
+    color: rgba(65, 105, 225, 0.381);
+}
+
+nav.mobile ul li{
+    padding: 10px;
+}
+
+
+/****itens***/
+.itens{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.sobre{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.bloco{
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho h2{
+    margin-top: 20px;
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+.cabecalho h3{
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 15px;
+}
+
+.cabecalho p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.doa{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    
+}
+
+.doa h2{
+    margin-bottom: 10px;
+}
+
+.doa li{
+    list-style: circle;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.doa .alimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.doa .higiene{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.doa .higiene li{
+    margin-top: 6px;
+}
+
+.zap{
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 170px;
+    background-color: green;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-height: 70px;
+}
+
+.zap:hover{
+    box-shadow: rgb(99, 99, 99) 0px 2px 8px 0px;
+}
+
+.zap svg{
+    width: 60px;
+    height: 60px;
+    
+}
+
+
+.coisas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.qr{
+    background-color: #ccc;
+    height: 120px;
+    width: 120px;
+    margin: 10px auto;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-content, .social-links {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/******FOTOS******/
+
+
+.bloco .foto{
+    display: flex;
+    background-image: url(../img/cha-2019/cha-2019.jpg);
+    width: 70%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+/****SOBRE****/
+
+.wraper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre .cabecalho h3{
+    font-size: 30px;
+    margin: 20px auto;
+} 
+
+
+.casa{
+    background-image: url(../img/casa1.JPG);
+    height: 500px;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 30px 0px 30px;
+
+}
+
+.texto p{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.zito{
+    margin-top: 30px;
+    background-image: url(../img/zito.jpg);
+    height: 500px;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/****PARCEIROS***/
+
+.parceiros{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.patro{
+    width: 300px;
+    height: 200px;
+    border: 5px solid white;
+    background-color: #ccc;
+}
+
+.patro-text p{
+padding: 0px 45px 0px 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:900px){
+    nav.desktop ul{
+        display: none;
+    }
+
+    i.fa-navicon{
+        display: inline-block;
+    }
+    .row{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 18px;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+        transition: 0.7s;
+    }
+    
+    .batata{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 15px;
+    }
+
+    .doa{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doa .alimentos{
+        display: flex;
+        align-items: center;
+    }
+
+    .doa .higiene{
+        display: flex;
+        align-items: center;
+    }
+
+    footer{
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-content, .social-links {
+        margin-bottom: 40px;
+}
+
+
+.zito{
+    height: 250px;
+}
+.casa{
+    height: 250px;
+    
+}
+
+.coisas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+}

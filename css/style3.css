@@ -1,0 +1,358 @@
+/*Resetar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    background-color: rgb(71, 70, 70);
+}
+
+.center{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*header da pagina principal*/
+
+
+
+header{
+    height: 100%;
+    width: 100%; 
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.285);
+}
+
+
+.row{
+    height: 80px;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .row h1{
+    color: rgb(228, 243, 118);
+    font-size: 40px;
+}
+
+.text-header h2{
+    margin-top: 250px;
+    color: rgb(228, 243, 118);
+    text-align: center;
+    font-size: 40px;
+}
+.text-header p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 115px 0 115px;
+}
+
+
+
+/*desktop*/
+nav.desktop ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav.desktop ul li{
+    margin-right: 45px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+nav ul li a:hover{
+    color: rgb(228, 243, 118);
+}
+
+/*mobile*/
+i.fa-navicon{
+    display: none;
+    cursor: pointer;
+    color: rgb(228, 243, 118);
+    position: fixed;
+}
+.batata{
+    display: flex;
+    align-items: center;
+}
+
+nav.mobile{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(177, 177, 4);
+    z-index: 5;
+}
+
+nav.mobile ul{
+    color: rgba(65, 105, 225, 0.381);
+}
+
+nav.mobile ul li{
+    padding: 10px;
+}
+
+#seta{
+    background-color:rgb(247, 255, 0); ;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 100000px;
+    cursor: pointer;
+    box-shadow: 11px #333;
+    z-index: 2;
+    padding: 10px;
+}
+
+
+/****itens***/
+.itens{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.bloco{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.bloco h1{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: black;
+}
+
+
+.bloco img{
+    width: 70%;
+    height: 550px;
+}
+
+.bloco .texto{
+    margin-top: 20px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    overflow: hidden;
+    padding: 0px 30px 0px 30px;
+}
+
+button{
+    
+    cursor: pointer;
+    text-align: center;
+    margin: 10px auto 60px auto;
+    padding: 10px;
+    background-color: rgb(228, 243, 118);
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(202, 216, 102);
+}
+
+.compact.active .texto {
+    height: auto;
+    transition: 1s;
+}
+
+.compact.active .texto::before {
+    visibility: hidden;
+    transition: 1s;
+}
+
+.compact-1.active .texto {
+    height: auto;
+    transition: 1s;
+}
+
+.compact-1.active .texto::before {
+    visibility: hidden;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    nav.desktop ul{
+        display: none;
+    }
+
+    i.fa-navicon{
+        display: inline-block;
+    }
+    .row{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 18px;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+        transition: 0.7s;
+    }
+    
+    .batata{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 15px;
+    }
+    
+    .bloco img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .bloco img{
+        height: 300px;
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+    .bloco img{
+        height: 200px;
+    }
+
+    .f-carousel button{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:260px) {
+    .bloco img{
+        height: 120px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-content, .social-links {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
