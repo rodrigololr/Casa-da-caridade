@@ -329,49 +329,63 @@ section.contato{
 	
 }
 
-.img-mosaico-single{
+.img-mosaico-single-1,.img-mosaico-single-2,.img-mosaico-single-3,
+.img-mosaico-single-7,.img-mosaico-single-10,.img-mosaico-single-4,
+.img-mosaico-single-8,.img-mosaico-single-11,.img-mosaico-single-5,
+.img-mosaico-single-9,.img-mosaico-single-12,.img-mosaico-single-6{
 	width: 100%;
 	padding-top:100%;
 	background-color: #e8e4e4;
-    background-position: center;
-    background-size: cover;
+    	background-position: center;
+   	background-size: cover;
 	border: 6px solid white;
 	}
 
-    .img-mosaico-single:nth-child(1){
+    .img-mosaico-single-1 {
         background-image: url(../img/doa.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-2 {
         background-image: url(../img/6.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-3 {
         background-image: url(../img/1.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-4 {
         background-image: url(../img/2.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-5 {
         background-image: url(../img/3.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-6 {
         background-image: url(../img/4.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-7 {
         background-image: url(../img/5.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-8 {
         background-image: url(../img/7.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-9 {
         background-image: url(../img/8.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-10 {
         background-image: url(../img/9.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-11 {
         background-image: url(../img/10.jpg);
     }
-    .img-mosaico-single:nth-child(1){
+    
+    .img-mosaico-single-12 {
         background-image: url(../img/event.jpg);
     }
 
